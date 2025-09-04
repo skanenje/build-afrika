@@ -45,7 +45,7 @@ const Home = () => {
       <section className="py-20 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-primary mb-6">About Build Africa Foundation</h2>
+            <h2 className="text-4xl font-bold text-primary mb-6">About Build Afrika Foundation</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Based in Kisumu, Kenya, we're a non-profit organization dedicated to empowering young 
               Africans through technology education, community building, and innovation opportunities.

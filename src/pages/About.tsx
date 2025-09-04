@@ -11,7 +11,7 @@ const About = () => {
       {/* Hero Section */}
       <section className="py-20 bg-gradient-hero text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h1 className="text-5xl font-bold mb-6">About Build Africa Foundation</h1>
+          <h1 className="text-5xl font-bold mb-6">About Build Afrika Foundation</h1>
           <p className="text-xl opacity-90 leading-relaxed">
             Empowering the next generation of African tech leaders through 
             education, community, and innovation opportunities.
@@ -26,7 +26,7 @@ const About = () => {
             <h2 className="text-3xl font-bold text-primary mb-8">Our Story</h2>
             <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
               <p>
-                Build Africa Foundation was born from a simple but powerful belief: that Africa's 
+                Build Afrika Foundation was born from a simple but powerful belief: that Africa's 
                 youth have the potential to lead the next wave of global technological innovation. 
                 Founded in Kisumu, Kenya, we recognized the gap between the abundance of talent 
                 and the lack of structured opportunities for young people to enter the tech industry.
@@ -38,7 +38,7 @@ const About = () => {
                 resources, and networks that could help them succeed.
               </p>
               <p>
-                Today, Build Africa Foundation has grown into a thriving ecosystem of learners, 
+                Today, Build Afrika Foundation has grown into a thriving ecosystem of learners, 
                 creators, and innovators. Through our flagship Tech Ignite event and four 
                 specialized communities, we've created pathways for hundreds of young people 
                 to discover their passion and build meaningful careers in technology.
