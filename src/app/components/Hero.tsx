@@ -1,6 +1,5 @@
 import { Button } from "./ui/button";
 import { ArrowRight, Users, Zap, Globe } from "lucide-react";
-import heroImage from "../assets/hero-image.jpg";
 
 const Hero = () => {
   return (
@@ -8,7 +7,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src={heroImage.src}
+          src="/hero-image.jpg"
           alt="Young African professionals working with technology"
           className="w-full h-full object-cover"
         />
