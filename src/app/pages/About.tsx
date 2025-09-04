@@ -1,6 +1,6 @@
-import Navigation from "@/components/Navigation";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import Navigation from "../components/Navigation";
+import { Button } from "../components/ui/button";
+import { Card, CardContent, CardHeader } from "../components/ui/card";
 import { Users, Target, Award, Rocket } from "lucide-react";
 
 const About = () => {
