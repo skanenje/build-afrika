@@ -1,11 +1,18 @@
-import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
+import { useState, useEffect } from "react";
+
+// Debug logging
+console.log('[Navigation] Module loaded');
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
+
+  useEffect(() => {
+    console.log('[Navigation] Route changed to:', location.pathname);
+  }, [location.pathname]);
 
   const isActive = (path: string) => location.pathname === path;
 

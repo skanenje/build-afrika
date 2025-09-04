@@ -1,7 +1,7 @@
-import Navigation from "../components/Navigation";
-import Hero from "../components/Hero";
-import CommunityCard from "../components/CommunityCard";
-import { Button } from "../components/ui/button";
+import Navigation from "../app/components/Navigation";
+import Hero from "../app/components/Hero";
+import CommunityCard from "../app/components/CommunityCard";
+import { Button } from "../app/components/ui/button";
 import { Bot, Palette, Share2, Blocks, ArrowRight, Target, Heart, Lightbulb } from "lucide-react";
 
 const Home = () => {
