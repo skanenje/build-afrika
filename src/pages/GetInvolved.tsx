@@ -6,7 +6,7 @@ import { Input } from "../app/components/ui/input";
 import { Textarea } from "../app/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../app/components/ui/select";
 import { Badge } from "../app/components/ui/badge";
-import { Mail, MapPin, Phone, Users, DollarSign, Lightbulb, Star, CheckCircle, ArrowRight } from "lucide-react";
+import { Mail, MapPin, Phone, Users, DollarSign, Star, CheckCircle, ArrowRight } from "lucide-react";
 
 export default function GetInvolved() {
     return (
@@ -167,7 +167,7 @@ export default function GetInvolved() {
                                         <SelectTrigger>
                                             <SelectValue placeholder="Primary Interest" />
                                         </SelectTrigger>
-                                        <SelectContent>
+                                        <SelectContent className="bg-white border border-gray-200 shadow-lg">
                                             <SelectItem value="web3">Web3 & Blockchain</SelectItem>
                                             <SelectItem value="ai-ml">AI & Machine Learning</SelectItem>
                                             <SelectItem value="design">Graphics & Product Design</SelectItem>
