@@ -51,9 +51,11 @@ const Navigation = () => {
                 {item.name}
               </Link>
             ))}
-            <Button variant="hero" size="sm">
-              Get Involved
-            </Button>
+            <Link to="/get-involved">
+              <Button variant="hero" size="sm">
+                Get Involved
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -87,9 +89,11 @@ const Navigation = () => {
                 </Link>
               ))}
               <div className="pt-2">
-                <Button variant="hero" size="sm" className="w-full">
-                  Get Involved
-                </Button>
+                <Link to="/get-involved" onClick={() => setIsOpen(false)}>
+                  <Button variant="hero" size="sm" className="w-full">
+                    Get Involved
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>

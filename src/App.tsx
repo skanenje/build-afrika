@@ -9,6 +9,7 @@ import NotFound from "./pages/NotFound";
 import TechIgnite from "./pages/tech-ignite";
 import Communities from "./pages/communities";
 import Contact from "./pages/contact";
+import GetInvolved from "./pages/GetInvolved";
 
 const queryClient = new QueryClient();
 
@@ -27,6 +28,7 @@ const App = () => {
               <Route path="/about" element={<About />} />
               <Route path="/tech-ignite" element={<TechIgnite />} />
               <Route path="/communities" element={<Communities />} />
+              <Route path="/get-involved" element={<GetInvolved />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
