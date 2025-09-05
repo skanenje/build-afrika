@@ -18,7 +18,7 @@ export default function GetInvolved() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center">
                         <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-                            Get Involved with Build Africa
+                            Get Involved with Build Afrika
                         </h1>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                             Whether you're an investor looking to support Africa's tech future or a young person ready to transform your career, we're here to help you make an impact.
@@ -88,7 +88,7 @@ export default function GetInvolved() {
                                         <SelectTrigger>
                                             <SelectValue placeholder="Investment Interest" />
                                         </SelectTrigger>
-                                        <SelectContent>
+                                        <SelectContent className="bg-white border border-gray-200 shadow-lg">
                                             <SelectItem value="program-funding">Program Funding</SelectItem>
                                             <SelectItem value="scholarship-sponsor">Scholarship Sponsorship</SelectItem>
                                             <SelectItem value="tech-infrastructure">Tech Infrastructure</SelectItem>
